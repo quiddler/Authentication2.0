@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication2.0", "Authentication2.0\Authentication2.0.csproj", "{B527E143-95B7-42AC-96E5-000F17D8DB12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api1", "Api1\Api1.csproj", "{2F865AD3-BF8F-45D8-88B0-3D9432C24CE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{64965657-DC9E-4938-9097-2E6CBDCDB0D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{B527E143-95B7-42AC-96E5-000F17D8DB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B527E143-95B7-42AC-96E5-000F17D8DB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B527E143-95B7-42AC-96E5-000F17D8DB12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F865AD3-BF8F-45D8-88B0-3D9432C24CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F865AD3-BF8F-45D8-88B0-3D9432C24CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F865AD3-BF8F-45D8-88B0-3D9432C24CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F865AD3-BF8F-45D8-88B0-3D9432C24CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64965657-DC9E-4938-9097-2E6CBDCDB0D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64965657-DC9E-4938-9097-2E6CBDCDB0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64965657-DC9E-4938-9097-2E6CBDCDB0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64965657-DC9E-4938-9097-2E6CBDCDB0D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
