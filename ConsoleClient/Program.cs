@@ -1,11 +1,7 @@
 ﻿using System;
 using System.Net.Http;
-using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
-using IdentityModel;
 using IdentityModel.Client;
-using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 namespace ConsoleClient
