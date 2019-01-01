@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication2.0", "Authentication2.0\Authentication2.0.csproj", "{B527E143-95B7-42AC-96E5-000F17D8DB12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sts", "Authentication2.0\Sts.csproj", "{B527E143-95B7-42AC-96E5-000F17D8DB12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api1", "Api1\Api1.csproj", "{2F865AD3-BF8F-45D8-88B0-3D9432C24CE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api1", "Api1\Api1.csproj", "{2F865AD3-BF8F-45D8-88B0-3D9432C24CE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{64965657-DC9E-4938-9097-2E6CBDCDB0D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{64965657-DC9E-4938-9097-2E6CBDCDB0D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcClient", "MvcClient\MvcClient.csproj", "{9ACAD504-EE19-458A-8973-49E28CE792B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{64965657-DC9E-4938-9097-2E6CBDCDB0D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64965657-DC9E-4938-9097-2E6CBDCDB0D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64965657-DC9E-4938-9097-2E6CBDCDB0D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ACAD504-EE19-458A-8973-49E28CE792B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ACAD504-EE19-458A-8973-49E28CE792B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ACAD504-EE19-458A-8973-49E28CE792B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ACAD504-EE19-458A-8973-49E28CE792B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

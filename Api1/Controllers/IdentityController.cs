@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
 
 namespace Api1.Controllers
 {
@@ -16,7 +17,8 @@ namespace Api1.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return new JsonResult(from claim in User.Claims select new { claim.Type, claim.Value });
+            var claims = from claim in User.Claims select new {claim.Type, claim.Value};
+            return new JsonResult(claims);
         }
     }
 }
